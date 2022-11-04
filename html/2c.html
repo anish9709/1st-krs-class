@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h2>List</h2>
+    <ul>
+        <li>carrot</li>
+        <li>ginger</li>
+        <li>potato</li>
+        <!-- in ul tag we can change the type from bullet using type ="" -->
+    </ul>
+    <ol type="i">
+        <li>carrot</li>
+        <li>ginger</li>
+        <li>potato</li>
+        <!-- in ol we can change the type from numericals to roman numerals and alphabets using type="1" we can also give the start value start=""-->
+    </ol>
+    <h3>nesting</h3>
+    <ul>
+        <li>Vegetables</li>
+        <ul type="square">
+            <li>carrot</li>
+            <li>ginger</li>
+        </ul>
+    </ul>
+    <ol><li>
+        fruits
+    </li>
+    <ol>
+        <li>apple</li>
+        <li>mango</li>
+    </ol>
+    </ol>
+    <dl>
+        <dt>Coffee</dt>
+        <dd>It is a black hot drink</dd>
+    </dl>
+    <!-- dl is description list dt discription tag dd is discription details -->
+    <form>
+        <fieldset>
+            <legend><b>personal details :</b> </legend>
+        <label for="name">username:</label>
+        <input type="text" id="name"/>
+        <br>
+        password:
+        <input type="password"
+        required />
+        <br>
+        <b>Gender:</b>
+        <input type="radio" name="r1"/>male
+        <input type="radio" name="r1"/>female  
+        <input type="radio" name="r1"/>trans
+        <!-- by giving same values to name we are linking the given options -->
+    <br>
+    <label>favourite food :</label>
+    <select>
+        <option>Indian</option>
+        <option>Chinese</option>
+    </select>
+    <label for="food">which year? 
+        <select>
+            <option>1</option>
+            <option>2</option>
+            <option>3</option>
+            <option>4</option>
+        </select>
+    </label>
+    <br>
+    <label for="addr">Address:</label>
+    <textarea 
+    id="addr"
+    rows="5"
+    cols="5"
+    placeholder="enter address here"
+    required></textarea>
+    <br>
+    <b>Education Qualification</b>
+    <input type="checkbox" name="g1"/>grade 10
+    <input type="checkbox" name="g1"/>grade 12
+    <input type="checkbox" name="g1"/>college
+    
+    <br>
+    <button class="button" onclick="alert('hello!')" type="=submit">submit</button>
+    <button class="button" onclick="alert('delete')" type="reset">reset</button>
+    </fieldset>
+</form>
+<table border="1px" bgcolor="green" width="100%">
+    <tr bgcolor="blue">
+        <th>Vegetables</th>
+        <th>fruits</th>
+        <th>chocolates></th>
+    </tr>
+    <tr bgcolor="yellow">
+        <td>ginger</td>
+        <td>apple</td>
+        <td>dairy milk</td>
+    </tr>
+    <tr bgcolor="orange">
+        <td>carrot</td>
+        <td>mango</td>
+        <td>kitkat</td>
+    </tr>
+</table>
+</body>
+</html>
