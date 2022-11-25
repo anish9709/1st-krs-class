@@ -1,23 +1,60 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
     <script>
-        //to write js code
+      //to write js code
     </script>
-</head>
-<body>
-    after writing content here
-    use script tag at the end
+  </head>
+  <body>
+    <!-- after writing content here use script tag at the end
+    console.log("statement"); // console.log("s"); // js is case sensitive //js
+    is a dynamically type lang as we do not need to define the variable type
+    //js is dynamically weakly typed programming language //1st letter small and
+    2nd letter big then it is known as camel case //tofixed number ko round off
+    kar dega //to.String converts number to string //.slice(0,n) use to print
+    array till the index needed //if var is not defined as it should be then for
+    getting output we use console.log(objectname['var name']); //function call
+    in js is known as invoke //to access global variable from a function of same
+    number as can be done with the this.varname here "this" is a keyword
+    //document keyword can be use to access html page -->
+    <div id="main">
+      <p class="a">
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique alias
+        ex culpa unde nulla, eaque non, sed reprehenderit accusantium ipsa natus
+        perspiciatis veniam placeat. Doloremque ut vel mollitia dolores dolor.
+      </p>
+      <p class="a"><b>hello</b></p>
+    </div>
+    <p id="demo"></p>
+    <img
+      id="image"
+      src="https://images.unsplash.com/photo-1667524607592-ee957a06df33?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2072&q=80"
+    />
+    <h1 id="id1">My Heading 1</h1>
+    <button type="button" onclick=""></button>
     <script>
-        console.log("statement");
-        // console.log("s");
-        // js is case sensitive
-        //js is a dynamically type lang as we do not need to define the variable type
-        //js is dynamically weakly typed programming language
+      //   document.getElementById("demo").innerHTML =
+      //     "text here comes from js DOM manupilation";
+      //const x = document.getElementById("main");
+      //const y = x.getElementsByTagName("p");
+      //y[0].innerHTML = y.length;
+      //this line removes the content within <p> tag and gives us the size or number of paragraph tags used here
+      const z = document.getElementsByClassName("a");
+      //   z[1].innerHTML = "change";
+      for (var i = 0; i < z.length; i++) {
+        z[i].innerHTML = "change";
+      }
+      var obj = document.getElementById("image");
+      obj.src =
+        "https://images.unsplash.com/photo-1667502102937-6382343eed85?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxlZGl0b3JpYWwtZmVlZHw0fHx8ZW58MHx8fHw%3D&auto=format&fit=crop&w=600&q=60";
+      document.getElementById("image").width = "990";
+      //we can change image by this way
+      //var obj = document.getElementById("image");
+      //USING DOM CHANGE CSS
     </script>
-</body>
+  </body>
 </html>

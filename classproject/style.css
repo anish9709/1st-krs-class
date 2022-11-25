@@ -1,0 +1,202 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+html{
+    scroll-behavior: smooth;
+}
+.modal{
+    display: none;
+    position: fixed;
+    z-index: 1;
+    left: 0px;
+    top: 0px;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: rgba(0,0,0,0.4);
+}
+.model-content{
+    background-color: white;
+    margin: auto;
+    padding: 20px;
+    border: 1px solid green;
+    width: 80%;
+    height: 50%;
+}
+#course_container{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+
+}
+.course_card{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+    height: 50%;
+    color: white;
+    background-color: #4094ec;
+    /* justify-content: space-between; */
+    margin: 10px;
+}
+body{
+    margin: 0;
+    padding: 0;
+    /* by this we set default padding and margin to 0. */
+}
+.navbar{
+    display: flex;
+    height: 90px;
+    background-color: #181e25;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 30px;
+    /* 0px top and bottom se padding dega 30px left and right se padding dega */
+}
+.list{
+    width: 350px;
+    display: flex;
+    justify-content: space-between;
+}
+.links{
+    color: white;
+    text-decoration: none;
+    /* to remove the underline thing of links */
+    font-size: 28px;
+}
+.bttn1{
+    
+    background-color: green;
+}
+.bttn2{
+    background-color: red;
+}
+.bttn1, .bttn2{
+    color: white;
+    padding: 14px 20px;
+    border-radius: 10px;
+    
+}
+.container1{
+    /* font-size: 35px; */
+    border: 1px solid black;
+    /* margin-left: 500px; */
+    height: 600px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+ .a{
+    color: white;
+    border-radius: 30px;
+    padding: 8px 15px;
+    background-color: blue;
+    font-size: 30px;
+}
+ .h{
+    font-size: 45px;
+    text-align: center;
+}
+.b1{
+    font-size: 30px;
+    width: 1500px;
+    text-align: center;
+}
+.b{
+    display: flex;
+    justify-content: space-between;
+    width: 250px;
+    border-radius: 15px;
+    font-size: 90px;
+    padding: 30px 55px; 
+    
+}
+.btn1{
+    /* color: white; */
+    /* background-color: blue;
+    border: none;
+    border-radius: 5px;
+    width: 40px; */
+    /* font-size: 20px; */
+    /* padding: 10px 25px; */
+    width: 50px;
+    height: 20px;
+    font-size: 50px;
+} 
+.btn2{
+    
+    /* border: 1px solid gray; */
+    border-radius: 5px;
+    width: 50px;
+    height: 20px;
+     /* font-size: 20px; */
+    /* padding: 10px 25px;   */
+    font-size: 50px;
+} 
+.btn-link1{
+    font-size: 15px;
+    width: 20px;
+    background-color: #4094ec;
+}
+.btn-link2{
+    font-size: 15px;
+    width: 20px;
+    background-color: white;
+}
+.container2{
+    display: flex;
+    height: 600px;
+    justify-content: center;
+    align-items: center;
+}
+.left-content{
+    width: 50%;
+    display: flex;
+    justify-content: center;
+}
+.right-content{
+    width: 70%;
+    font-size: 30px;
+}
+.content-list{
+    font-size: 20px;
+    color: gray;
+    width: 500px;
+}
+.discord-btn{
+    border: none;
+    background-color: #4094ec;
+    border-radius: 5px;
+    padding: 20px 44px;
+}
+.discord-link{
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+}
+.hr{
+    width: 80%;
+    height: 5px;
+    background-color: black;
+}
+.footer{
+    display: flex;
+    justify-content: space-between;
+    padding: 100px;
+}
+.f{
+    display: flex;
+    justify-content: space-between;
+    width: 300px;
+    padding: 100px;
+}
+.contact-list{
+    display: flex;
+    width: 100px;
+    justify-content: space-between;
+}

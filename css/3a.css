@@ -1,0 +1,42 @@
+body{
+    height: 100%;
+    margin: 0;
+  }
+  .main {
+    display: flex;
+    /* justify-content: space-between;
+    width: 30px; */
+    /* background-image: url(./../image/home-banner1.jpg); */
+  
+    background-image: url(./../image/home-banner1.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 1300px;
+  }
+   .i 
+  {
+    display: flex;
+    flex-direction: row;
+  }  
+  .j{
+    margin-left: 150px;
+  }
+  .im{
+    display: flex;
+    justify-content: space-around;
+    width: 400px;
+    /* margin-left: 60px; */
+    
+  }
+  .ab{
+    margin-top: 250px;
+    margin-left: -1007px;
+    font-size: 65px;
+  }
+  .bu{
+    margin-left: 500px;
+    border-radius: 15px;
+    font-size: 50px;
+    width: 1000px;
+  }

@@ -1,0 +1,79 @@
+
+body{
+    margin: 0;
+    padding: 0;
+    /* by this we set default padding and margin to 0. */
+}
+.navbar{
+    display: flex;
+    height: 90px;
+    background-color: #181e25;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 30px;
+    /* 0px top and bottom se padding dega 30px left and right se padding dega */
+}
+.list{
+    width: 350px;
+    display: flex;
+    justify-content: space-between;
+}
+.links{
+    color: white;
+    text-decoration: none;
+    /* to remove the underline thing of links */
+    font-size: 28px;
+}
+.bttn1{
+    
+    background-color: green;
+}
+.bttn2{
+    background-color: red;
+}
+.bttn1, .bttn2{
+    color: white;
+    padding: 14px 20px;
+    border-radius: 10px;
+    
+}
+.register{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 1100px;
+    margin-right: 300px;
+    margin-top: -150px;
+}
+.register-box{
+    border: 2px solid black;
+    background-color:  rgba(170, 182, 198, 0.5);
+    width: 600px;
+    height: fit-content;
+    padding: 30px;
+    border-radius: 20px;
+    box-shadow: 0 15px 25px rgba(0, 0, 0, 0.6);
+    margin-left: 300px;
+    /* padding-bottom: -50px; */
+    /* margin-top: 1000px; */
+}
+.register-box h2{
+    text-align: center;
+    font-size: 30px;
+}
+.footer{
+    display: flex;
+    justify-content: space-between;
+    padding: 100px;
+}
+.f{
+    display: flex;
+    justify-content: space-between;
+    width: 300px;
+    padding: 100px;
+}
+.contact-list{
+    display: flex;
+    width: 100px;
+    justify-content: space-between;
+}

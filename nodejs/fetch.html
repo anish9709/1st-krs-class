@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>JavaScript | fetch() Method</title>
+  </head>
+  <body>
+    <script>
+      var user = {
+        name: "Aditya",
+        age: "21",
+      };
+
+      let fetchRes = fetch("http://dummy.restapiexample.com/api/v1/create", {
+        //api accepts post type requests
+        method: "POST", //request sending data
+        headers: {
+          //headers extra piece of info jo btata hai json ko
+          "Content-Type": "application/json;charset=utf-8", //to tell server which type of data is
+        },
+        body: JSON.stringify(user), //converted to json string
+      });
+
+      fetchRes
+        .then((res) => res.json()) //converting json string to json obj
+        .then((d) => {
+          //=> short hand way of creating function (arrow function)
+          console.log(d); //printing json object console.log(d.data)->only data will be shown console.log(d.message)->it shows only message
+        });
+    </script>
+  </body>
+</html>
